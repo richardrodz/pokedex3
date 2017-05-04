@@ -15,7 +15,6 @@ class PokemonDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameLabel.text = pokemon.name
     }
 
 }

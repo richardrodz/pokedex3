@@ -16,6 +16,7 @@
 		7923A9BF1EBB18310006AFE0 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7923A9BE1EBB18310006AFE0 /* pokemon.csv */; };
 		7923A9C21EBB19B70006AFE0 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923A9C11EBB19B70006AFE0 /* Pokemon.swift */; };
 		7923A9C61EBB20E30006AFE0 /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923A9C51EBB20E30006AFE0 /* PokeCollectionViewCell.swift */; };
+		7923A9C81EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923A9C71EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		7923A9BE1EBB18310006AFE0 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		7923A9C11EBB19B70006AFE0 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7923A9C51EBB20E30006AFE0 /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
+		7923A9C71EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				7923A9C51EBB20E30006AFE0 /* PokeCollectionViewCell.swift */,
+				7923A9C71EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7923A9A11EBB0D690006AFE0 /* ViewController.swift in Sources */,
+				7923A9C81EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift in Sources */,
 				7923A9C61EBB20E30006AFE0 /* PokeCollectionViewCell.swift in Sources */,
 				7923A99F1EBB0D690006AFE0 /* AppDelegate.swift in Sources */,
 				7923A9C21EBB19B70006AFE0 /* Pokemon.swift in Sources */,

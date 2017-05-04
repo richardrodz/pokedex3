@@ -60,7 +60,7 @@
                                     <constraint firstAttribute="bottom" secondItem="uyw-6Z-v96" secondAttribute="bottom" constant="8" id="jyh-Hl-T8P"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="jTc-Af-PbW">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Pokemon" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jTc-Af-PbW">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="nGS-LQ-Jsn"/>

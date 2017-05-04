@@ -13,9 +13,9 @@ class PokeCollectionViewCell: CustomLayoutCollectionViewCell {
     @IBOutlet weak var thumbImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-    private var pokemon: Pokemon!
+    fileprivate var pokemon: Pokemon!
     
-    func configureCell(pokemon: Pokemon) {
+    func configureCell(_ pokemon: Pokemon) {
         self.pokemon = pokemon
         
         nameLabel.text = self.pokemon.name.capitalized

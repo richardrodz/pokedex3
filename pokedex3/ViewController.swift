@@ -68,12 +68,23 @@ class ViewController: UIViewController {
             sender.alpha = 1.0
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "PokemonDetailsViewController" {
+            if let detailsVC = segue.destination as? PokemonDetailsViewController {
+                if let poke = sender as? Pokemon {
+                    detailsVC.pokemon = poke
+                }
+            }
+        }
+    }
 }
 
 // MARK: UICollectionViewDelegate
 extension ViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let poke = inSearchMode ? filterPokemon[indexPath.row] : pokemon[indexPath.row]
+        performSegue(withIdentifier: "PokemonDetailsViewController", sender: poke)
     }
 }
 

@@ -21,6 +21,7 @@
 		7923A9CF1EBB32E40006AFE0 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7923A9CD1EBB32E40006AFE0 /* Pokemon Hollow.ttf */; };
 		7923A9D01EBB32E40006AFE0 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7923A9CE1EBB32E40006AFE0 /* Pokemon Solid.ttf */; };
 		7923A9D51EBB358F0006AFE0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7923A9D41EBB358F0006AFE0 /* music.mp3 */; };
+		7923A9D71EBB487B0006AFE0 /* PokemonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923A9D61EBB487B0006AFE0 /* PokemonDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		7923A9CD1EBB32E40006AFE0 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 		7923A9CE1EBB32E40006AFE0 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		7923A9D41EBB358F0006AFE0 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		7923A9D61EBB487B0006AFE0 /* PokemonDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				7923A9A01EBB0D690006AFE0 /* ViewController.swift */,
+				7923A9D61EBB487B0006AFE0 /* PokemonDetailsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				7923A9A11EBB0D690006AFE0 /* ViewController.swift in Sources */,
 				7923A9C81EBB2A380006AFE0 /* CustomLayoutCollectionViewCell.swift in Sources */,
 				7923A9C61EBB20E30006AFE0 /* PokeCollectionViewCell.swift in Sources */,
+				7923A9D71EBB487B0006AFE0 /* PokemonDetailsViewController.swift in Sources */,
 				7923A99F1EBB0D690006AFE0 /* AppDelegate.swift in Sources */,
 				7923A9C21EBB19B70006AFE0 /* Pokemon.swift in Sources */,
 			);

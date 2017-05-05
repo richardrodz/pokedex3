@@ -200,7 +200,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lgM-sj-e29">
-                                <rect key="frame" x="16" y="73" width="288" height="258.5"/>
+                                <rect key="frame" x="16" y="81" width="288" height="288.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gt6-80-FBs">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="158"/>
@@ -216,7 +216,7 @@
                                                 </segments>
                                                 <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </segmentedControl>
-                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XtQ-SJ-Guk">
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XtQ-SJ-Guk">
                                                 <rect key="frame" x="0.0" y="38" width="288" height="120"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="HjE-G8-QTa">
@@ -227,7 +227,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The bulb on its back grows as it absorbs nutrients. The bulb gives off a pleasant aroma when it blooms." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EQI-Ek-jNE">
-                                                        <rect key="frame" x="120" y="0.0" width="168" height="120"/>
+                                                        <rect key="frame" x="125" y="0.0" width="163" height="120"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -242,8 +242,8 @@
                                             <constraint firstAttribute="trailing" secondItem="a3t-sI-PLN" secondAttribute="trailing" id="Qzw-b4-mR9"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-J8-GJc">
-                                        <rect key="frame" x="0.0" y="178" width="288" height="80.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-J8-GJc">
+                                        <rect key="frame" x="0.0" y="178" width="288" height="110.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="CtJ-JR-Eu4">
                                                 <rect key="frame" x="0.0" y="0.0" width="288" height="20.5"/>
@@ -285,7 +285,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="wBm-qT-WVa">
-                                                <rect key="frame" x="0.0" y="30.5" width="288" height="20"/>
+                                                <rect key="frame" x="0.0" y="45.5" width="288" height="20"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5PZ-uh-NIU">
                                                         <rect key="frame" x="0.0" y="0.0" width="82.5" height="20"/>
@@ -324,7 +324,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-No-X9P">
-                                                <rect key="frame" x="0.0" y="60.5" width="288" height="20"/>
+                                                <rect key="frame" x="0.0" y="90.5" width="288" height="20"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7hS-wq-5Up">
                                                         <rect key="frame" x="0.0" y="0.0" width="94" height="20"/>
@@ -419,7 +419,7 @@
                             <constraint firstItem="diP-I5-hPI" firstAttribute="leading" secondItem="6fr-gc-TRD" secondAttribute="leading" id="Gop-vp-9jA"/>
                             <constraint firstAttribute="trailing" secondItem="diP-I5-hPI" secondAttribute="trailing" id="b32-Y2-ZgY"/>
                             <constraint firstItem="MQa-xq-yNf" firstAttribute="top" secondItem="diP-I5-hPI" secondAttribute="bottom" constant="20" id="gBN-YS-s3R"/>
-                            <constraint firstItem="lgM-sj-e29" firstAttribute="top" secondItem="41f-8K-Q9Q" secondAttribute="bottom" constant="8" id="iUj-Vj-DK6"/>
+                            <constraint firstItem="lgM-sj-e29" firstAttribute="top" secondItem="41f-8K-Q9Q" secondAttribute="bottom" constant="16" id="iUj-Vj-DK6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lgM-sj-e29" secondAttribute="trailing" id="l65-S6-qfu"/>
                             <constraint firstItem="MQa-xq-yNf" firstAttribute="centerX" secondItem="6fr-gc-TRD" secondAttribute="centerX" id="mDW-DH-4hb"/>
                             <constraint firstItem="41f-8K-Q9Q" firstAttribute="leading" secondItem="6fr-gc-TRD" secondAttribute="leading" id="oua-o5-lYJ"/>

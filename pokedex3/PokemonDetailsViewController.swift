@@ -31,7 +31,12 @@ class PokemonDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLabel.text = pokemon.name
+        nameLabel.text = pokemon.name.capitalized
+        pokemonIDLabel.text = "\(pokemon.pokeID)"
+        
+        let image = UIImage(named: "\(pokemon.pokeID)")
+        mainImage.image = image
+        currentEvoImage.image = image
         
         pokemon.downloadPokemonDetails {
             // Whatever we write will only be called
@@ -43,10 +48,21 @@ class PokemonDetailsViewController: UIViewController {
     
     func updateUI() {
         defenseLabel.text = pokemon.defense
-        pokemonIDLabel.text = pokemon.pokeID
         weightLabel.text = pokemon.weight
         heightLabel.text = pokemon.height
         baseAttackLabel.text = pokemon.attack
+        typeLabel.text = pokemon.type
+        descriptionLabel.text = pokemon.description
+        
+        if pokemon.nextEvolutionID == "" {
+            evoLabel.text = "No Evolution"
+            nextEvoImage.isHidden = true
+        } else {
+            nextEvoImage.isHidden = false
+            nextEvoImage.image = UIImage(named: pokemon.nextEvolutionID)
+            let str = "Next Evolution \(pokemon.nextEvolutionName) - LVL \(pokemon.nextEvolutionLevel)"
+            evoLabel.text = str
+        }
     }
 
     @IBAction func backButtonPressed(_ sender: UIButton) {

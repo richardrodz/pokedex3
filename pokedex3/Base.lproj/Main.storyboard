@@ -405,9 +405,17 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Uh2-OF-VDA">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="hGj-3d-Fru"/>
+                                            <constraint firstAttribute="width" constant="120" id="qEz-av-mU4"/>
+                                        </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="9yp-at-70t">
                                         <rect key="frame" x="150" y="0.0" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="1YB-SU-thc"/>
+                                            <constraint firstAttribute="height" constant="120" id="q5a-Ou-JRX"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                             </stackView>

@@ -30,6 +30,23 @@ class PokemonDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nameLabel.text = pokemon.name
+        
+        pokemon.downloadPokemonDetails {
+            // Whatever we write will only be called
+            // after the network call is complete
+            
+            self.updateUI()
+        }
+    }
+    
+    func updateUI() {
+        defenseLabel.text = pokemon.defense
+        pokemonIDLabel.text = pokemon.pokeID
+        weightLabel.text = pokemon.weight
+        heightLabel.text = pokemon.height
+        baseAttackLabel.text = pokemon.attack
     }
 
     @IBAction func backButtonPressed(_ sender: UIButton) {
